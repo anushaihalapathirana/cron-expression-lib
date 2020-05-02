@@ -1,6 +1,6 @@
 {
   "name": "cron-exp-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "libry to generate cron expression",
   "main": "index.js",
   "scripts": {
