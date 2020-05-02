@@ -40,9 +40,6 @@ exports.generateCronExpression = function(selection, UTCDateTime, selectedDaysOf
     DEC: 'DEC',
   }
 
-  const WEEK_DAYS_ARRAY = ['SUN', 'MON', 'TUE','WED', 'THU', 'FRI', 'SAT'];
-  UTCDateTime = new Date("Sat Dec 01 2018 10:30:04 GMT+0530 (India Standard Time)");
-
   let seconds = '*';
   let minutes = '*';
   let hours = '*';
@@ -158,5 +155,3 @@ exports.generateCronExpression = function(selection, UTCDateTime, selectedDaysOf
     return errorMsg;
   }
 }
-
-console.log(module.exports.generateCronExpression("YEAR",1,[1,2],["JAN"],5));
