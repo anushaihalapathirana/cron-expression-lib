@@ -3,7 +3,7 @@
 cron-expressopn-lib is a Node.js libry to generate **quartz** cron expression.
 
 ## Installation
-    npm install cron
+    npm install cron-exp-lib
 
 ## usage
 
