@@ -1,6 +1,6 @@
 {
   "name": "cron-exp-lib",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "libry to generate cron expression",
   "main": "index.js",
   "repository": {
@@ -21,5 +21,5 @@
 		"node.js"
 	],
   "license": "ISC",
-  "homepage": "https://github.com/serverless/serverless#readme"
+  "homepage": "https://github.com/anushaihalapathirana/cron-expression-lib#readme"
 }
